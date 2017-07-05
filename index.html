@@ -1,316 +1,670 @@
-
 <!DOCTYPE html>
- <head>
-  <title>Dipkumar Patel</title>
-      <meta charset="UTF-8">
-    <meta name="description" content="Personal Website">
-    <meta name="keywords" content="kalyn nakano" />
-    <meta name="author" content="Kalyn Nakano" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0;">
-      <link href="css/style.css" rel="stylesheet">
-      <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Rokkitt|Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'> 
-    <link href='http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>   
-    <link href="dist/magnific-popup.css?v=0.9.8" rel="stylesheet" />
-      <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      
-      ga('create', 'UA-41348693-1', 'kalynnakano.com');
-      ga('send', 'pageview');
-    </script> 
-  </head>
-  <body>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Agency - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Theme CSS -->
+    <link href="css/agency.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
     <!-- Navigation -->
-    <div id="toc-holder" class="toc-holder">
-      <a href="#" class="toc-link" id="toc-link"><span>&#9776;</span></a>
-      <ul id="toc" class="toc">
-        <li class="toc-h1"><a href="#about">About</a></li>
-        <li class="toc-h1"><a href="#resume">Résumé</a></li>
-        <li class="toc-h1"><a href="#work">Work</a></li>
-      </ul>
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Team</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Welcome To Our Studio!</div>
+                <div class="intro-heading">It's Nice To Meet You</div>
+                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Services</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">E-Commerce</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Responsive Design</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Web Security</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Portfolio</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Round Icons</h4>
+                        <p class="text-muted">Graphic Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Startup Framework</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Treehouse</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/golden.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Golden</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/escape.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Escape</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/dreams.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Dreams</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2009-2011</h4>
+                                    <h4 class="subheading">Our Humble Beginnings</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>March 2011</h4>
+                                    <h4 class="subheading">An Agency is Born</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>December 2012</h4>
+                                    <h4 class="subheading">Transition to Full Service</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>July 2014</h4>
+                                    <h4 class="subheading">Phase Two Expansion</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>Be Part
+                                    <br>Of Our
+                                    <br>Story!</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Our Amazing Team</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Kay Garland</h4>
+                        <p class="text-muted">Lead Designer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Larry Parker</h4>
+                        <p class="text-muted">Lead Marketer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Diana Pertersen</h4>
+                        <p class="text-muted">Lead Developer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Aside -->
+    <aside class="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/envato.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/designmodo.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contact Us</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Your Website 2016</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
+                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <p>
+                                    <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
+                                <ul class="list-inline">
+                                    <li>Date: July 2014</li>
+                                    <li>Client: Round Icons</li>
+                                    <li>Category: Graphic Design</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div id="page-wrapper">
-      <!-- Header -->
-      <div id="header">
-        <div class="inner name"><a href="#illustration">Kalyn Nakano</a></div>
-        <div class ="nav">
-        <ul class="mobile-nav">
-        <li class="mobile-header"><a href="#about">About</a></li>
-        <li class="mobile-header"><a href="#resume">Resumé</a></li>
-        <li class="mobile-header"><a href="#work">Work</a></li></ul>
-        </div>
-      </div>
-      <!-- Essentials Illustration -->
-      <div id="illustration"><center><img src="img/big.png"></center></div>
-      <!-- About Me -->
-      <div id="about"><div class="inner">
-        <p>Hello, world! I'm a developer and designer.</p><br/><br/><br/>
-        <!-- Console -->
-          <div id="code">
-            <div id="console">
-              &gt; Kalyn.origin<br/>
-              <span class="answer">&nbsp;&nbsp;=&gt; "Palo Alto, CA"<br/><br/></span>
-              &gt; Kalyn.education<br/>
-              <span class="answer">&nbsp;&nbsp;=&gt; "University of Southern California"<br/><br/></span>
-              &gt; Kalyn.major<br/>
-              <span class="answer">&nbsp;&nbsp;=&gt; "Computer Science"<br/><br/></span>
-              &gt; Kalyn.expectedGraduation<br/>
-              <span class="answer">&nbsp;&nbsp;=&gt; "May 2014"<br/><br/></span>
-              &gt; Kalyn.interests<br/>
-              <span class="answer">&nbsp;&nbsp;=&gt; ["Design", "Code", "coffee", "typography", "music", "bicycles", "brunch"]<br/><br/></span>
-              &gt; Kalyn.workExperience.latest<br/>
-              <span class="answer">&nbsp;&nbsp;=&gt; Latest Work Experience<br/>
-                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; company: "IDEO"<br/>
-                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; role: "Digital Shop Intern"<br/>
-                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; startDate: "June 2013"<br/>
-                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; endDate: "August 2013"<br/>
-              <br/></span>
-              &gt; Kalyn.resume<br/>
-              <span class="answer">&nbsp;&nbsp;=&gt; "<a target="_blank" href="kalynnakano.pdf">kalynnakano.pdf</a>"<br/><br/></span>
-              &gt; Kalyn.thoughts<br/>
-              <span class="answer">&nbsp;&nbsp;=&gt; ["<a target="_blank" href="http://www.twitter.com/kalynnakano">@kalynnakano</a>",
-                 "<a target="_blank" href="http://advancedsettings.tumblr.com">advancedsettings.tumblr.com</a>",
-                 "<a target="_blank" href="http://www.rdio.com/people/knakano/playlists/7112262/My_Brain/">rdio</a>"]<br/><br/></span>
-              &gt; Kalyn.email<br/>
-              <span class="answer">&nbsp;&nbsp;=&gt; "<a target="_blank" href="mailto:kalyn.nakano@gmail.com">kalyn.nakano@gmail.com</a>"<br/><br/></span>
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Project Heading</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
+                                <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
+                                <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-        <br/>
-      </div>
-      <!-- Résumé -->
-      <div id="resume"><div class="inner">
-        <p class="tagline">Résumé</p>
-        <!-- Résumé : Education -->
-        <p class="section-tagline" style="text-align:left;">Education</p>
-        <!-- Résumé : Education : USC -->
-        <p>
-          <a target="_blank" href="http://usc.edu"><img class="icon" src="img/companies/usc2.jpg"></a><b>University of Southern California</b>
-          <span class="right"><i>2010 - 2014</i></span><br/><b>Computer Science, B.S.</b>
-          <span class="right"><i>Los Angeles, CA</i></span><br/><br/>
-            Relevant Coursework:<br/>
-            <ul style="list-style:circle;">
-                  <li>Fundamentals of Computer Programming</li>
-                  <li>Object-Oriented Programming</li>
-                  <li>Principles of Software Development</li>
-                  <li>Discrete Methods in Computer Science</li> 
-                  <li>Design and Analysis of Algorithms</li>
-                  <li>Design for User Experience</li>
-                  <li>Basic Organization of Computer Systems</li>
-                  <li>Human Language and Technology</li>
-                  <li>Mobile Application Development</li>
-                  <li>Design and Construction of Large Software Systems</li>
-                  <li>Operating Systems</li>
-                  <li>File and Database Management</li>
-                  <li>Advanced Web Technologies</li>
-                  <li>Advanced Topics in Mobile App Development</li>
-                  <li>3D Design and Prototyping</li>
-                </ul>
-          <span class="skill">C/C++</span><span class="skill">Java</span><span class="skill">Objective-C</span><span class="skill">Python</span><span class="skill">Git</span>
-        </p>
-        <br/>
-        <!-- Résumé : Education : Sorbonne -->
-        <p>
-          <a target="_blank" href="http://www.english.paris-sorbonne.fr/‎"><img class="icon" src="img/companies/sorbonne.png"></a><b>Paris Sorbonne University</b>
-          <span class="right"><i>Spring 2013</i></span><br/>
-          <b>Study Abroad</b>
-          <span class="right"><i>Paris, FR</i></span><br/><br/>
-          Spent a semester studing art history, French, fashion and interior design in the 6th arrondissement of Paris. Additional recreational coursework
-          in French cooking, wine tasting, and cheese pairing.<br/><br/>
-          <span class="skill">Français</span><span class="skill">Airbnb-ing</span><span class="skill">L'art du pique-nique</span>
-        </p>
-        <br/>
-        <!-- Résumé : Education : Freestyle -->
-        <p>
-          <a target="_blank" href="http://www.freestyle.mvla.net/‎"><img class="icon" src="img/companies/fcat.png"></a><b>Freestyle Academy of Communication Arts & Technology</b>
-          <span class="right"><i>2008-2010</i></span><br/>
-          <b>Web and Audio Engineering</b>
-          <span class="right"><i>Mountain View, CA</i></span><br/><br/>
-          Attended a special academy with an interdisciplinary curriculum in graphic design, digital photography, and creative writing. Specialized
-          in web and audio engineering.<br/><br/>
-          <span class="skill">HTML</span><span class="skill">CSS</span><span class="skill">JS</span><span class="skill design">Photoshop</span><span class="skill design">Illustrator</span><span class="skill design">InDesign</span><span class="skill design">AfterEffects</span><span class="skill design">Flash</span><span class="skill">ActionScript</span><span class="skill">Reason</span><span class="skill">ProTools</span>
-        </p>
-        <br/><br/>
+    </div>
 
-        <!-- Résumé : Work Experience -->
-        <p class="section-tagline" style="text-align:left;">Work Experience</p>
-
-        <!-- Résumé : Work Experience : IDEO -->
-        <p>
-          <a target="_blank" href="http://www.ideo.com"><img class="icon" src="img/companies/ideo-3.png"></a><b>IDEO</b>
-          <span class="right"><i>Summer 2013</i></span><br/>
-          <b>Digital Shop Intern</b>
-          <span class="right"><i>Palo Alto, CA</i></span><br/><br/>
-            Joined a team of product and software engineers within IDEO to 
-          design, prototype, build and ship digital products. Worked as both a designer and developer on a variety of internal and client projects.<br/><br/>
-          <span class="skill">HTML</span><span class="skill">SASS/CSS</span><span class="skill">CoffeeScript/JS</span><span class="skill">PHP</span><span class="skill">WordPress</span><span class="skill">Git</span><span class="skill design">Illustrator</span><span class="skill design">Photoshop</span>
-        </p>
-        <br/>
-        <!-- Résumé : Work Experience : Roski -->
-        <p>
-          <a target="_blank" href="http://roski.usc.edu"><img class="icon" src="img/companies/roski.png"></a><b>USC Roski School of Fine Arts</b>
-          <span class="right"><i>2012 - 2013</i></span><br/>
-          <b>Web Developer</b>
-          <span class="right"><i>Los Angeles, CA</i></span><br/><br/>
-            Responsible for maintaining the USC Roski School of Fine Arts website. Additionally worked on design and PHP/MySQL 
-            development for a new equipment rental web application used by all departments within the art school.<br/><br/>
-          <span class="skill">HTML</span><span class="skill">CSS</span><span class="skill">PHP</span><span class="skill">MySQL</span><span class="skill">Bootstrap</span>
-        </p>
-        <br/>
-        <!-- Résumé : Work Experience : Intuit -->
-        <p>
-          <a target="_blank" href="http://www.intuit.com"><img class="icon" src="img/companies/intuit.png"></a><b>Intuit</b>
-          <span class="right"><i>Summer 2012</i></span><br/>
-          <b>Experience Design Intern</b>
-          <span class="right"><i>San Diego, CA</i></span><br/><br/>
-            Working directly with designers, engineers, user researchers, and product managers to create, maintain, and transition the ofﬁcial 
-            prototype for the new TurboTax 'Finish and File' experience into the real code base for TurboTax Online.<br/><br/>
-          <span class="skill">HTML</span><span class="skill">CSS</span><span class="skill">JS</span><span class="skill design">Photoshop</span>
-        </p>
-        <br/>
-        <!-- Résumé : Work Experience : Tricky Software -->
-        <p>
-          <a target="_blank" href="http://www.trickysoftware.com"><img class="icon" src="img/companies/tricky.png"></a><b>Tricky Software</b>
-          <span class="right"><i>Summer 2011</i></span><br/>
-          <b>Software Engineering Intern</b>
-          <span class="right"><i>Menlo Park, CA</i></span><br/><br/>
-            Experience designing and programming mobile games and applications for the iPhone and iPad. Worked on front-end for 
-            Emma the Inventor and UI for Crayola Color Studio, and company website.<br/><br/>
-          <span class="skill">HTML</span><span class="skill">CSS</span><span class="skill">PHP</span><span class="skill">Objective-C</span>
-          <span class="skill design">Illustrator</span>
-        </p>
-        <br/>
-        <!-- Résumé : Work Experience : UpTrending -->
-        <p>
-          <a target="_blank" href="http://www.uptrending.com"><img class="icon" src="img/companies/uptrending.png"></a><b>UpTrending, LLC</b>
-          <span class="right"><i>Summer 2011</i></span><br/>
-          <b>Web Designer and Developer</b>
-          <span class="right"><i>Palo Alto, CA</i></span><br/><br/>
-            Designing websites with a business minded approach and programming in front-end. Additional experience in SEO and Social 
-            Media campaigns, working directly with clients to build lasting online identities.<br/><br/>
-          <span class="skill">HTML</span><span class="skill">CSS</span><span class="skill">JS</span><span class="skill">WordPress</span><span class="skill design">Photoshop</span><span class="skill design">Illustrator</span>
-        </p>
-        <br/><br/><br/><br/>
-      </div></div>
-      <!-- Portfolio -->
-      <div id="work"><div class="inner">
-        <p class="tagline">Work + Fun</p>
-    
-        <div class="portfolio-thumb portfolio-big">
-          <a class="image-popup-no-margins" href="img/portfolio/happen.png"><img src="img/portfolio/happen.png"></a>
-          <p class="description"><b>Happen</b>&nbsp;&nbsp; A group project for our senior software design capstone class inspired by our collective frustration with current social media’s focus on making our backlogs public. We want to create a tool for people to make plans for the future with all interactions between users kept private. This will be a simple planning platform where users can keep a list of things they want to do and friends can ambiently express their interest by swiping “me too.” We expect further communication to take place outside the app and are interested in the simplicity of its humble feature set, and its potential to encourage offline communication and activity. Working as a designer and developer. Currently in development. 
-
-</p>
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
+                                <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
+                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row">
-          <div class="portfolio-thumb">
-            <a class="image-popup-no-margins" href="img/portfolio/bike2.png"><img src="img/portfolio/bike2.png"></a>
-            <p class="description"><b>Illustrations</b>&nbsp;&nbsp; I like to draw things I like. My Schwinn ride pictured above.</p>
-          </div>
-          <div class="portfolio-thumb">
-            <a class="image-popup-no-margins" href="img/portfolio/labs2.png"><img src="img/portfolio/labs2.png"></a>
-            <p class="description"><b>IDEO Labs</b>&nbsp;&nbsp; Worked on front-end development of a wordpress theme designed for the new <a target="_blank" href="http://labs.ideo.com">IDEO Labs site</a>.</p>
-          </div>
-        </div>            
-        <div class="row">
-          <div class="portfolio-thumb">
-            <a class="image-popup-no-margins" href="img/portfolio/apollo2.png"><img src="img/portfolio/apollo2.png"></a>
-            <p class="description"><b>Apollo</b>&nbsp;&nbsp; An internal summer intern project at IDEO. Apollo is
-             a searchable community of people tagged with rich psychographic data, curated to provide resolution and reach to companies looking
-             for research candidates.
-            </p>
-          </div>
-          <div class="portfolio-thumb">
-            <a class="image-popup-no-margins" href="img/portfolio/xx_03.png"><img src="img/portfolio/xx_03.png"></a>
-            <p class="description"><b>Music Visualizer</b>&nbsp;&nbsp; Experimental summer
-            project using WebGL and Three.js with a beat detection algorithm to make an interactive 3D music visualization of album artwork using orbit controls. Play <a target="_blank" href="visualizer/xx.html">here</a>.</p>
-          </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
+                                <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
+                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row">
-          <div class="portfolio-thumb">
-            <a class="popup-vimeo" href="http://vimeo.com/41632558"><img src="img/portfolio/cube2.png"></a>
-            <p class="description"><b>LED Cube</b>&nbsp;&nbsp; Built with a friend as a final project for USC EE 201: Introduction to Digital Circuits. Constructed an 8x8x8 LED Cube three-dimensional display. Designed and wired the driver circuit board. Wrote application modules in Verilog to navigate the cube. </p>
-          </div>
-          <div class="portfolio-thumb">
-            <a class="image-popup-no-margins" href="img/portfolio/homefit.png"><img src="img/portfolio/homefit.png"></a>
-            <p class="description"><b>Homefit</b>&nbsp;&nbsp; Working with Executive Director of Digital Innovation at USC Viterbi School of Engineering, Ashish Soni, to research, conceptualize, wireframe, and design a new online tool for people looking to buy a home. </p></div>
-          </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt="">
+                                <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
+                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div></div>
-      <div  id ="footer"><div class="inner">
-        © 2013 Kalyn Nakano. 
-        <span class="right">
-          <a target="_blank" href="mailto:kalyn.nakano@gmail.com">Email</a>&nbsp;//&nbsp;
-          <a target="_blank" href="http://www.linkedin.com/pub/kalyn-nakano/33/344/376/">LinkedIn</a>&nbsp;//&nbsp;
-          <a target="_blank" href="http://www.twitter.com/kalynnakano">Twitter</a>
-        </span>
-      </div></div>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script src="js/jquery.fixedTOC.js?v=3.0"></script>
-    <script src="dist/jquery.magnific-popup.js?v=0.9.8"></script>
-    <script type="text/javascript">
-     $(document).ready(function() {
-            $('.image-popup-no-margins').magnificPopup({
-              type: 'image',
-              closeOnContentClick: true,
-              closeBtnInside: false,
-              fixedContentPos: true,
-              mainClass: 'mfp-no-margins mfp-with-zoom', // Class to remove default margin from left and right side
-              image: {
-                verticalFit: true
-              },
-              zoom: {
-                enabled: true,
-                duration: 300 // Duration variable also in CSS
-              }
-            });
+    </div>
 
-             $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
-              disableOn: 700,
-              type: 'iframe',
-              mainClass: 'mfp-fade',
-              removalDelay: 160,
-              preloader: false,
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
+                                <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
+                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-              fixedContentPos: false
-            });
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
 
-            $('.simple-ajax-popup-align-top').magnificPopup({
-              type: 'ajax',
-              alignTop: true,
-              overflowY: 'scroll' // as we know that popup content is tall we set scroll overflow by default to avoid jump
-            });
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-            $('.simple-ajax-popup').magnificPopup({
-              type: 'ajax'
-            });
-          });
-    </script>
-    <script>
-    // call the plugin on the "#toc" element
-    $('#toc').fixedTOC({
-      menuOpens: 'click', // or 'mouseenter'
-      scrollSpeed: 1000,
-      menuSpeed: 300,
-      useSubMenus: false,
-      resetSubMenus: false,
-      topLinkWorks: true
-    });
-    </script>
-    <script>
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-1965499-1']);
-      _gaq.push(['_trackPageview']);
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
 
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-  </body>
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/agency.min.js"></script>
+
+</body>
+
 </html>
